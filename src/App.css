@@ -1,0 +1,161 @@
+.notifyDiv{
+  text-align: center;
+  width: 100%;
+  background: #E6E6E6;
+  color:#0091FF;
+  height: 35px;
+  font-size: 20px;
+}
+
+.headerDiv{
+  color: #B8BEC3;
+  padding: 30px 0px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #F6F7F7;
+}
+.tableDiv{
+  width: 700px;
+  float: left;
+  height: 80vh;
+  overflow-y: auto;;
+  display: inline-block;
+  margin-top: 30px;
+  box-sizing: border-box;
+  padding-right: 10px;
+}
+.cartHaderDiv{
+  color: #B8BEC3;
+  padding: 5px 0px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #F6F7F7;
+}
+
+.mainDiv{
+  width: 1000px;
+  margin:auto;
+}
+.floatRight{
+  float: right;
+}
+.floatLeft{
+  float: left;
+}
+.allItem{
+  font-size: 20px;
+}
+.goToCart{
+  color: #FFFFFF;
+  padding: 4px 12px;
+  background: #0091FF;
+  text-decoration: none;
+}
+
+.back{
+  text-decoration: none;
+}
+
+.listItem{
+  height: 250px;
+  width: 235px;
+  display: inline-block;
+  border:1px solid #efefef;
+  margin: 10px;
+  box-sizing: border-box;
+}
+.listItem:nth-child(4n+1){
+  margin-left: 0px;
+}
+.listItem:nth-child(4n+4){
+  margin-right: 0px;
+}
+.imageDiv > img{
+  height: 140px;
+  width: 140px;
+}
+.imageDiv{
+  text-align: center;
+  vertical-align: middle;
+  padding: 20px 0px;
+}
+.textDiv{
+  background: #efefef;
+  height: 50px;
+  padding: 8px;
+}
+.itemName{
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #8D959C;
+  padding-bottom: 6px;
+}
+
+.noDiscount{
+  font-weight: bold;
+  font-size: 16px;
+  color: #8D959C;
+}
+
+.discountApplied{
+  font-style: italic;
+  text-decoration: line-through;
+  text-decoration-color: red;
+  padding-right: 8px;
+  color: #8D959C;
+}
+
+.addToCart{
+  color: #0099ff;
+  border: 1px solid #0099ff;
+  padding:2px 6px;
+  border-radius: 4px;
+}
+.addToCart:hover{
+  color:#FFFFFF;
+  background: #0099ff;
+}
+.quantityCol > span{
+  padding: 10px 15px;
+  border: 1px solid #efefef;
+}
+.quantityCol > i{
+  padding: 0px 10px;
+  cursor: pointer;
+}
+.tableItem{
+  display: inline-block;
+  width: 100%;
+  border: 1px solid #efefef;
+  padding: 4px;
+}
+.tableItem > img {
+  width: 30px;
+  height: 30px;
+}
+.tableItem > div {
+  padding-left: 8px;
+  margin-top: 6px;
+}
+.tableItem > i {
+  padding-right: 8px;
+  margin-top: 6px;
+  cursor: pointer;
+}
+
+.orderSummaryDiv{
+  width: 300px;
+  margin-top: 62px;
+  float: right;
+  display: inline-block;
+  box-sizing: border-box;
+  border:1px solid #efefef;
+}
+.orderSummary{
+  padding: 18px 8px;
+}
+.totalItem {
+  padding: 10px 0px;
+}
+.orderTotal{
+  padding: 11px 8px;
+  background: #efefef;
+}

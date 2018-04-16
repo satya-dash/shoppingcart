@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  color: #9BA4A9;
+  font-weight: 500;
+}
+
+table{
+  width: 100%;
+}
+th{
+  font-weight: 500;
+  border-bottom: 1px solid #efefef;
+}
+tr{
+	height: 60px;
+}
+th:nth-child(1){
+  width: 60%;
+  text-align: left;
+}
+th:nth-child(2){
+  width: 25%;
+  text-align: center;
+}
+th:nth-child(3){
+  width: 15%;
+  text-align: right;
+}
+tr td:nth-child(2){
+	text-align: center;
+}
+tr td:nth-child(3){
+	text-align: right;
+}
