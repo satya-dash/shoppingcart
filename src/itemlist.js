@@ -25,7 +25,7 @@ class ItemList extends Component {
     render(){
         let {items} = this.state;
         return (
-            <div>
+            <div className="items">
                 {
                     items.map(el=>{
                         return (
